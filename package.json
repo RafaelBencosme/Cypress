@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cy.open": "cypress open",
-    "cy.headless": "cypress run",
-    "cypress:open:ci": "cypress open --config-file cypress.ci.json"
+    "test": "cypress run",
+    "open": "cypress open --e2e --browser electron"
   },
   "author": "",
   "license": "ISC",
